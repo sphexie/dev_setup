@@ -17,7 +17,7 @@ start:
 		--user root \
 		devenv 
 connect:
-	@ssh-keygen -R 192.168.106.2
+	@ssh-keygen -R "[192.168.106.2]:24" -f ~/.ssh/known_hosts
 	@ssh root@192.168.106.2 -p 24
 
 stop:
