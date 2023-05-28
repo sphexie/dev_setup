@@ -15,17 +15,14 @@ Plugin 'preservim/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plugin 'kien/ctrlp.vim'
-
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
-
 Plugin 'christoomey/vim-tmux-navigator'
-
 Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
+
 Plugin 'arcticicestudio/nord-vim'
 
 " All of your Plugins must be added before the following line
