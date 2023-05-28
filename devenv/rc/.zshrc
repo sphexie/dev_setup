@@ -5,3 +5,5 @@ source /root/.antigen.zsh
 antigen init /root/.antigenrc
 
 bindkey -v
+
+ [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
