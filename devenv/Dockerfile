@@ -15,8 +15,5 @@ RUN ./05_docker.sh
 
 RUN  echo 'root:password' | chpasswd
 
-RUN service ssh start
-
-EXPOSE 22
-
-CMD ["tail","-f","/dev/null"]
+ENTRYPOINT ["./entrypoint.sh"]
+#CMD ["tail","-f","/dev/null"]
