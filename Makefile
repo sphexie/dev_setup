@@ -23,7 +23,8 @@ connect:
 stop:
 	@docker container stop devenv
 	@echo "done stopping"
-
+	
+restart: stop clean build start
 
 clean:
 	@docker container remove devenv --force
