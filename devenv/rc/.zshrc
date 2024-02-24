@@ -6,4 +6,6 @@ antigen init /root/.antigenrc
 
 bindkey -v
 
- [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+#fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_DEFAULT_OPTS='--no-mouse'

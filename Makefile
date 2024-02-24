@@ -17,8 +17,8 @@ start:
 		--user root \
 		devenv 
 connect:
-	@ssh-keygen -R "[192.168.106.2]:24" -f ~/.ssh/known_hosts
-	@ssh root@192.168.106.2 -p 24
+	@ssh-keygen -R "[192.168.106.3]:24" -f ~/.ssh/known_hosts
+	@ssh root@192.168.106.3 -p 24
 
 stop:
 	@docker container stop devenv
